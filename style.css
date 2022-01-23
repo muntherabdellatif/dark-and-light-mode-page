@@ -262,3 +262,48 @@ input:checked + .slider::before {
   font-size: 30px;
   margin-right: 5px;
 }
+
+@media (max-width:426px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  .about-container {
+    flex-direction: column;
+  }
+
+  .image-container {
+    margin-bottom: 10px;
+  }
+
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    row-gap: 10px;
+  }
+
+  
+  .text-box {
+    width: 74%;
+    padding: 15px;
+  }
+
+  .social-icons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+  }
+
+  .fab {
+    font-size: 80px;
+    width: 15%;
+  }
+}
